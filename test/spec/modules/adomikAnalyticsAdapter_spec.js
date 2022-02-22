@@ -44,9 +44,7 @@ describe('Adomik Prebid Analytic', function () {
 
       const initOptions = {
         id: '123456',
-        url: 'testurl',
-        testId: '12345',
-        testValue: '1000'
+        url: 'testurl'
       };
 
       const bid = {
@@ -74,8 +72,6 @@ describe('Adomik Prebid Analytic', function () {
         uid: '123456',
         url: 'testurl',
         sampling: undefined,
-        testId: '12345',
-        testValue: '1000',
         id: '',
         timeouted: false
       });
@@ -87,8 +83,6 @@ describe('Adomik Prebid Analytic', function () {
         uid: '123456',
         url: 'testurl',
         sampling: undefined,
-        testId: '12345',
-        testValue: '1000',
         id: 'test-test-test',
         timeouted: false
       });
